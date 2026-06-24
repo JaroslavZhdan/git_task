@@ -1,0 +1,8 @@
+Опишите предметную область "Магазин продуктов" в 10–12 предложениях. Раскройте:
+1. Какие основные сущности (таблицы) участвуют в процессе продаж.
+categories, cities, counties, customers, emplyees, proucts, sales, shops
+2. Какие операции фиксируются.
+Модификация продукта, продажа продукта
+3. Какие данные (3-4 ключевых атрибута) хранятся для сущностей products и employees.
+Для products: product_name, price, product_id, category_id
+Для emplyees: employee_id, first_name, last_name, shop_id
