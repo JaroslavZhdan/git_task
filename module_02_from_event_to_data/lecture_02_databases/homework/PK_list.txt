@@ -1,0 +1,10 @@
+categories - category_id
+cities - city_id
+countries - country_id
+customers - customer_id
+employees - emplyee_id
+products - product_id
+sales - sales_id
+shops - shop_id
+
+Каждый PK однозначно идентифицирует кортеж значений => атрибуты хорошо подходяит для PK
