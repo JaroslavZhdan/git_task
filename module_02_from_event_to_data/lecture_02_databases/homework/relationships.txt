@@ -1,0 +1,7 @@
+Sales и products - 1:M
+Employees и cities - 1:M
+Cities и countries - 1:1
+
+Сущность Sales связана с сущностью products как 1:M. Объяснение: Множество позиций продажи sales_id могут ссылаться на один и тот же product_id
+Сущность Emplyees связана с сущностью cities как 1:M. Объяснение: Множество позиций сотрудники emloyee_id могут ссылаться на один и тот же city_id
+Сущность Cities связана с сущностью counties как 1:M. Объяснение: только один город city_id может ссылаться на страну country_id.
