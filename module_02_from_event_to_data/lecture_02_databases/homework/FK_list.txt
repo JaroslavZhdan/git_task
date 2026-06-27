@@ -1,0 +1,6 @@
+В sales:
+emplyee_id
+customer_id
+product_id
+
+В shops FK, который указывает на city - city_id
