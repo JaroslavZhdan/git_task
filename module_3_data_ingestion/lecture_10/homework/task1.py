@@ -3,7 +3,7 @@ class Product:
         self.name = name
         self.__price = price
 
-    def price(self):
+    def get_price(self):
         return self.__price
 
     def set_price(self, new_price):
@@ -54,4 +54,3 @@ for i in cart:
     print(i.get_display_info())
     total_sum += i.calculate_cost()
 print(f'ИТОГО К ОПЛАТЕ: {total_sum}')
-
